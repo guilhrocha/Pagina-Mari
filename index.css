@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}   
+
+body {
+    background-color: #bdb9ae;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header img {
+    display: flex;
+    width: 10%;
+    height: 10%;
+    margin: 1%;
+    display: inline-block;
+}
+
+header .menu {
+    display: flex;
+    margin-top: calc(-9%);
+    margin-right: calc(2%);
+    justify-content: flex-end;
+}
+
+header a {
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+}
+
+header a:hover {
+    color: aliceblue;
+}
+
+section .tit h1{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 25pt;
+}
+
+section .tit p {
+    text-align: center;
+    margin: 2%;
+    font-size: 12pt;
+}
+
+section .grupo1 {
+    display: flex;
+    justify-content: center;
+}
+
+section .grupo1 img {
+    width: 32vw;
+    height: 20vw;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+section .grupo2 {
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+}
+
+section .grupo2 img {
+    width: 40vw;
+    height: 20vw;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+section .grupo3 {
+    display: flex;
+    justify-content: center;
+}
+
+section .grupo3 img {
+    width: 32vw;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+footer {
+    text-align: center;
+    margin: 1%;
+}
+
+footer p {
+    margin: 1%;
+}
